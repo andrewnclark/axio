@@ -1,0 +1,9 @@
+{application,feeder,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,jason,
+                             postgrex,ecto_sql]},
+              {description,"feeder"},
+              {modules,['Elixir.Feeder','Elixir.Feeder.Application',
+                        'Elixir.Feeder.DataCase','Elixir.Feeder.Repo']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Feeder.Application',[]}}]}.
